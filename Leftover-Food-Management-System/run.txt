@@ -1,0 +1,7 @@
+cd "D:\All Projects\SY IT Module-III\DBMS\Leftover Food Management System\hotelmanagementsystem" 
+
+javac -cp "../lib/mysql-connector-j-9.2.0/mysql-connector-j-9.2.0.jar;../bin" -d ../bin *.java
+
+cd ../bin
+
+java -cp "../lib/mysql-connector-j-9.2.0/mysql-connector-j-9.2.0.jar;." hotelmanagementsystem.Home
